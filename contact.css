@@ -365,16 +365,23 @@ footer{
     body {
         font-size: 14px;
     }
-    header{
-        position: absolute;
-    }
-
     header .logo {
-        margin-left: 10px;
+        margin-left: 100px;
     }
 
     header .nav ul li a {
-        font-size: 14px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    header .nav{
+        position: relative;
+    }
+    header .nav ul li {
+        padding: 5px;
+        border: 2px solid #7f97ff;
+    }
+    header .nav ul li:hover{
+        background-color: rgba(0, 0, 0, 0.2);
     }
     .sec1{
         margin-top: 100px;
@@ -383,6 +390,9 @@ footer{
         margin-top: 100px;
         width: 50px;
         height: auto;
+    }
+    .image img{
+        margin-top: 200px;
     }
 
 
