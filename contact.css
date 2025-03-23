@@ -110,16 +110,7 @@ header .nav ul li a:hover{
     font-size: 25px;
     transition: all .4s ease-in-out;
 }
-.sec3 h3{
-    color:rgba(23, 25, 41, 0.5);
-    font-size: 20px;
-}
-.sec3 h3:hover{
-    color: #d9ff00;
-    background-color: rgba(1, 255, 1 ,0.5);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: all .5s ease-in-out;
-}
+
 .sec3 h5:hover{
     color: blueviolet;
     background-color: azure;
