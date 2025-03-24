@@ -43,8 +43,8 @@
         <div class="sec1">
             <h3>THIS IS ME </h3> 
             <h1>SHAHRIAR KABIR SHAWON</h1>
-            <h5>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.</h5> <br>
-            <input type="button" value="DISCOVER NOW">
+            <h5 id="into">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.</h5> <br>
+            <input type="button" onclick="document.getElementById('into').innerHTML = 'তুমি বুঝতে শুরু করবে কেন এই অনুশীলনটিকে ডিকেন্স প্যাটার্ন বলা হয়, যেখানে স্ক্রুজকে কিছু ভিন্ন ভবিষ্যৎ দেখানো ভূতের কথা উল্লেখ করা হয়েছে।' " value="DISCOVER NOW">
 
         </div>
         <div class="sec2">
@@ -64,8 +64,8 @@
         <div class="sec4">
             <h3>About Me</h3>
             <h1>Personal Details</h1>
-            <h5>I am Shahriar Kabir, a student of the Science Department in the SSC 2026 batch at Government Jadunath Pilot Model High School. My journey in programming started at school. Gradually, in my free time, I began programming and started learning web development. This website is my first portfolio website that I created. 😍💝❤</h5>
-            <input type="button" value="VIEW FULL DEATAILS">
+            <h5 id="about">I am Shahriar Kabir, a student of the Science Department in the SSC 2026 batch at Government Jadunath Pilot Model High School. My journey in programming started at school. Gradually, in my free time, I began programming and started learning web development. This website is my first portfolio website that I created. 😍💝❤</h5>
+            <input type="button" onclick="document.getElementById('about').innerHTML = 'আমি শাহরিয়ার কবির, সরকারি যদুনাথ পাইলট মডেল উচ্চ বিদ‍্যালয়ের এসএসসি ২০২৬ ব‍্যাচের বিজ্ঞান বিভাগের শিক্ষার্থী । বিদ‍্যালয় থেকে প্রোগ্রামিং এর হাতে খড়ি শুরু হয় ।। তারপর আস্তে আস্তে অবসর সময়ে প্রোগ্রামিং করা শুরু করি এবং ওয়েব ডেভেলপমেন্ট শিখতে শুরু করি ।। এই ওয়েবসাইটি আমার তৈরি করা প্রথম পোর্টফোলিও ওয়েবসাইট 😍💝❤' " value="VIEW FULL DEATAILS">
         </div>
      </section>
       <!--Section 2 end-->
@@ -307,9 +307,9 @@
             </div>
             <div class="f1">
                 <h3 style="text-align: center;">Newsletter</h3>
-                <p style="text-align: center;">Stay updated with our latest trends</p>
+                <p style="text-align: center;" id="email">Stay updated with our latest trends</p>
                 <input type="text" placeholder="Enter your email">
-                <button >Send</button>
+                <button onclick="document.getElementById('email').innerHTML = 'আপনার ইমেইল ঠিকানাটি সফলভাবে পাঠানো হয়েছে 🥰' " >Send</button>
             </div>
             <div class="f1">
                 <h3 style="text-align: center;">Follow me</h3>

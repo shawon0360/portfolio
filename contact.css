@@ -184,7 +184,7 @@ header .nav ul li a:hover{
 
 
 /*Form start*/
-.form1{
+#form1{
     background-color: tomato;
     color: aliceblue;
     text-align: center;
@@ -197,12 +197,12 @@ header .nav ul li a:hover{
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 , rgba(0,0,0,0.19);
 }
-.form1 input{
+#form1 input{
     padding: 5px 20px;
     border-color: blue;
     border-radius: 50px;
 }
-.form1 .btn{
+#form1 .btn{
     font-weight: bold;
 }
 

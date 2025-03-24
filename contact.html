@@ -74,11 +74,11 @@
             <input type="text" placeholder="Enter your email"> <br>
             <input type="text" placeholder="Enter subject">
         </div>
-        <div class="sec5">
+        <div class="sec5" id="msg">
             <br>
-            <input type="text" placeholder="Enter message">
+            <input type="text"  placeholder="Enter message">
             <br> <br>
-            <button type="submit">Send Message</button>
+            <button type="submit" onclick="document.getElementById('msg').innerHTML = 'আপনার মেসেজটি সফলভাবে পাঠানো হয়েছে🤍😍' ">Send Message</button>
         </div>
     </section>
 
@@ -98,14 +98,14 @@
     
 <!--From Start-->
 
-<div class="form1">
+<div id="form1">
     <form action="#" method="get">
         Email: <br>
         <input type="text" name="username" id="email"> <br>
         Password: <br>
         <input type="password" name="password" id="pass"> <br>
         <input type="reset" value="reset" class="btn">
-        <input type="submit" value="Login" class="btn">
+        <input type="submit" onclick="document.getElementById('form1').innerHTML = 'অভিনন্দন 🥳 আপনার Log-inসফলভাবে সম্পন্ন হয়েছে🤍😍' " value="Login" class="btn">
 
     </form>
 </div>
