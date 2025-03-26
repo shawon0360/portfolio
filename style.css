@@ -55,7 +55,7 @@ header .nav ul li a:hover{
 
 .iconarea{
     position: fixed;
-    top: 215px;
+    top: 300px;
     left: 2px;
     transform: translateY(-50%);
     background-color: #f9f9ff;
@@ -293,6 +293,9 @@ header .nav ul li a:hover{
 
 
 /* portfolio part start */
+.section5{
+    margin-top: 20px;
+}
 .section5 .sec6{
     text-align: center;
     box-sizing: border-box;
@@ -307,7 +310,7 @@ header .nav ul li a:hover{
 }
 .sec6 p{
     color: #8393ff;
-    margin-top: -20px;
+    margin-top: 20px;
     margin-bottom: 30px;
     opacity: 0.9;
 }
@@ -337,6 +340,7 @@ header .nav ul li a:hover{
 .section6{
     background-color: antiquewhite;
     text-align: center;
+    margin-top: 70px;
 }
 
 .sec7 h1{
@@ -358,6 +362,17 @@ header .nav ul li a:hover{
     color: green;
     opacity: 0.7;
 }
+@media only screen and (max-width: 600px){
+    .section6{
+        width: 90%;
+        margin-left: 15px;
+    }
+    .fimg img{
+        width: 100%;
+    }
+}
+
+
 /* Section 6 end  */
 
 
@@ -365,6 +380,7 @@ header .nav ul li a:hover{
 .section7{
     width: 100%;
     height: auto;
+    margin-top: 50px;
 }
 .sec8{
     text-align: center;
@@ -379,8 +395,8 @@ header .nav ul li a:hover{
 .sec8 p{
     color: #31bd2d;
     font-size: 20px;
-    line-height: 2px;
     opacity: 0.8;
+    margin-top: 15px;
 }
 .sec9{
     width: 75%;
@@ -396,6 +412,9 @@ header .nav ul li a:hover{
     height: 520px;
     text-align: center;
     border: 4px solid rgba(130, 147, 255, 0.2);
+}
+.sec9 .card h5{
+    padding: 25px;
 }
 .sec9 h1{
     font-size: 50px;
@@ -468,7 +487,7 @@ header .nav ul li a:hover{
     height: 300px;
     background-color: rgba(10, 37, 218, 0.2);
     margin: 0 auto;
-    padding-top: 250px;
+    padding-top: 150px;
     border: 2px solid whitesmoke;
     border-radius: 50%;
 }
@@ -499,7 +518,7 @@ footer{
     height: 300px;
     color: white;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 25%;
 }
 .foot{
     width: 90%;
@@ -748,8 +767,8 @@ footer{
     }
 
     header .nav ul li a {
-        font-size: 20px;
-        padding: 10px;
+        font-size: 15px;
+        padding: 5px;
     }
     header .nav{
         position: relative;
