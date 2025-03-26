@@ -57,7 +57,7 @@ header .nav ul li a:hover{
 
 .iconarea{
     position: fixed;
-    top: 215px;
+    top: 330px;
     left: 2px;
     transform: translateY(-50%);
     background-color: #f9f9ff;
@@ -107,6 +107,11 @@ header .nav ul li a:hover{
     text-wrap: 5px;
     position: relative;
 }
+@media only screen and (max-width: 600px){
+
+}
+
+
 
 .box1{
     width: 300px;
@@ -202,11 +207,11 @@ header .nav ul li a:hover{
     animation: box 2s infinite alternate;
 }
 @keyframes box{
-    0%{transform: rotate(0deg); border-width: 10px;}
-    25%{border-color: aqua; border-width: 15px;}
-    50%{border-color: red; border-width: 25px;}
-    75%{border-color: blue; border-width: 35px;}
-    88%{border-color: black; border-width: 45px;}
+    0%{transform: rotate(0deg); border-width: 5px;}
+    25%{border-color: aqua; border-width: 10px;}
+    50%{border-color: red; border-width: 15px;}
+    75%{border-color: blue; border-width: 25px;}
+    88%{border-color: black; border-width: 35px;}
     100%{transform: rotate(360deg);}
 }
 
@@ -281,6 +286,17 @@ footer{
     }
     .sec3{
         margin-left: 400px;
+    }
+    .sec3 video {
+        width: 500px;
+        height: auto;
+        margin-left: 20px;
+    }
+    
+    .sec3 img {
+        width: 500px;
+        height: auto;
+        margin-left: 20px;
     }
 
 }
@@ -376,8 +392,8 @@ footer{
     }
 
     header .nav ul li a {
-        font-size: 20px;
-        padding: 10px;
+        font-size: 15px;
+        padding: 5px;
     }
     header .nav{
         position: relative;
@@ -388,6 +404,35 @@ footer{
     }
     header .nav ul li:hover{
         background-color: rgba(0, 0, 0, 0.2);
+    }
+    .sec2 {
+        width: 90%;
+    }
+        
+    .box2 {
+        width: 100px;
+        height: 100px;
+    }
+        
+    .box3 {
+        width: 20px;
+        height: 20px;
+    }
+        
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+        
+    .sec3 video  {
+        width: 400px;
+        height: auto;
+        margin-left: 20px;
+    }
+    .sec3 img{
+        width: 400px;
+        height: auto;
+        margin-left: 20px;
     }
 
     
