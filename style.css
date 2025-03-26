@@ -780,6 +780,16 @@ footer{
     header .nav ul li:hover{
         background-color: rgba(0, 0, 0, 0.2);
     }
+    .section1{
+        height: 350px;
+    }
+
+
+    .pimg{
+        width: 300px;
+        height: auto;
+        margin-left: 5px;
+    }
 
     .sec3 img{
         width: 100%;

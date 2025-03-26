@@ -55,8 +55,8 @@ header .nav ul li a:hover{
 
 .iconarea{
     position: fixed;
-    top: 300px;
-    right: 5px;
+    top: 350px;
+    right: 25px;
     transform: translateY(-50%);
     background-color: #f9f9ff;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
