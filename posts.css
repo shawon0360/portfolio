@@ -56,8 +56,8 @@ header .nav ul li a:hover{
 
 .iconarea{
     position: fixed;
-    top: 300px;
-    right: 5px;
+    top: 700px;
+    left: 0;
     transform: translateY(-50%);
     background-color: #f9f9ff;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
@@ -223,6 +223,16 @@ footer{
 
 
 /* Responsive CSS for Mobile Devices */
+/* Device view */ 
+@media (min-width:1024px){
+    .iconarea{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        left: 1350px;
+    }
+}
+
 
 /* Smaller tablets and large phones (landscape view) */
 @media only screen and (max-width: 991px) {
